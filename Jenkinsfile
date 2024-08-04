@@ -1,6 +1,6 @@
 pipeline {
     environment {
-        DOMAIN='apps.ocp4.example.com'
+        DOMAIN='crc-lgph7-master-0.crc.nbg5a8o2gkrp.instruqt.io'
         PRJ="hello-${env.BRANCH_NAME}-${env.BUILD_NUMBER}"
         APP='nodeapp'
     }
